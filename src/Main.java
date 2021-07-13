@@ -4,7 +4,7 @@ public class Main {
         taskOne(15, 9);
         taskTwo(8);
         taskThree(-4);
-        taskFor("Java", 3);
+        taskFour("Java", 3);
         taskFive(2024);
     }
     /**
@@ -55,7 +55,7 @@ public class Main {
      * метод должен отпечатать в консоль указанную строку, указанное количество раз;
      */
 
-    private static void taskFor(String str, int n){
+    private static void taskFour(String str, int n){
         for (int i = 0; i < n; i++) {
             System.out.println(str);
         }

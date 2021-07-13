@@ -49,7 +49,7 @@ public class Main {
 
 
     private static boolean taskFive(int year){
-        if (year % 400 ==0){
+        if (year % 400 == 0){
             System.out.println("Год " + year + " високосный (true)");
             return true;
         }else if (year % 100 != 0 && year % 4 == 0){
